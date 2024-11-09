@@ -128,7 +128,7 @@ public class Form_BH extends javax.swing.JPanel {
 
         btn_XoaGioHang.setBackground(new java.awt.Color(102, 255, 255));
         btn_XoaGioHang.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btn_XoaGioHang.setText("Xóoaa");
+        btn_XoaGioHang.setText("Xóa");
 
         tbl_GioHang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -325,7 +325,12 @@ public class Form_BH extends javax.swing.JPanel {
 
         btn_ThanhToan.setBackground(new java.awt.Color(102, 255, 255));
         btn_ThanhToan.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btn_ThanhToan.setText("Thanh ");
+        btn_ThanhToan.setText("Thanh Toán");
+        btn_ThanhToan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_ThanhToanActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -500,6 +505,10 @@ public class Form_BH extends javax.swing.JPanel {
     private void btn_timkiemDSSPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_timkiemDSSPActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_timkiemDSSPActionPerformed
+
+    private void btn_ThanhToanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ThanhToanActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_ThanhToanActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

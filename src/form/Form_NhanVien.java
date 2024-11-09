@@ -101,6 +101,11 @@ public class Form_NhanVien extends javax.swing.JPanel {
 
         btn_ThemNV.setText("Th");
         btn_ThemNV.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        btn_ThemNV.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_ThemNVActionPerformed(evt);
+            }
+        });
 
         btn_XoaNV.setText("Xóa");
         btn_XoaNV.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(204, 204, 204)));
@@ -324,6 +329,10 @@ public class Form_NhanVien extends javax.swing.JPanel {
     private void btn_SuaNVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_SuaNVActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_SuaNVActionPerformed
+
+    private void btn_ThemNVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ThemNVActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_ThemNVActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
